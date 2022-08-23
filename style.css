@@ -38,20 +38,53 @@ p {
     border-radius: 5px;
 }
 
+.plans {
+    padding: 80px;
+    display: flex;
+    margin: 20px;
+
+}
+
+.donate {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: aliceblue;
+}
+
+#clicked-donate {
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: lightpink;
+}
+
+.individual-plans {
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+
+.back-color1 {
+    background-color: lightcyan;
+}
+
+.back-color2 {
+    background-color: khaki;
+}
+
+.back-color3 {
+    background-color: rosybrown;
+}
+
 .input-field {
     background-color: burlywood;
     padding: 10px 40px;
     text-align: center;
     font-size: 24px;
-}
-
-.subscribe-button {
-    background-color: tomato;
-    color: white;
-    border: 0;
-    font-weight: 24px;
-    padding: 10px 40px;
-    border-radius: 5px;
 }
 
 footer {
