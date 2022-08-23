@@ -1,12 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-
 }
 
 h1 {
     font-size: 50px;
-    color: tomato;
+    color: white;
     text-align: center;
 }
 
@@ -21,11 +20,17 @@ p {
 
 .top-banner {
     background-image: url(images/donation0.jpg);
-
     background-repeat: no-repeat;
     height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.head-part {
+    text-align: center;
+    width: 50%;
+    margin: auto 0px;
 }
 
 
@@ -37,17 +42,13 @@ p {
     padding: 10px 40px;
     border-radius: 5px;
     text-decoration: none;
-}
 
-.display {
-    display: block;
 }
 
 .plans {
     padding: 80px;
     display: flex;
     margin: 20px;
-
 }
 
 .donate {
@@ -74,9 +75,7 @@ p {
     padding: 20px;
     border-radius: 5px;
     margin: 20px;
-
 }
-
 
 .back-color1 {
     background-color: lightcyan;
